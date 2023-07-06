@@ -1,0 +1,30 @@
+body{
+  background: white;
+        
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.about-us{
+  background-color: white;
+}
+.careers {
+  background: black url('./images/foodpanda-riders.jpeg') no-repeat;
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.press{
+  background: black url('./images/press.jpeg') no-repeat;
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
