@@ -35,7 +35,7 @@ const showMobileMenu = (stat) => {
       </div>
       <div class="hidden md:flex basis-head-nav-links justify-center">
         <div class="flex flex-row items-center gap-x-11 text-deffont">
-          <a href="">ABOUT1232</a>
+          <a href="">ABOUT</a>
           <a href="">CAREERS</a>
           <a href="">PRESS</a>
           <a href="">ORDER</a>
