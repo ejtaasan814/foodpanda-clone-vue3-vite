@@ -9,7 +9,7 @@ const router = createRouter({
       name: 'home',
       component: HomeView,
       meta: {
-        title: 'Foodpanda'
+        title: 'Home | Foodpanda'
       }
     },
     {
@@ -20,7 +20,7 @@ const router = createRouter({
       // which is lazy-loaded when the route is visited.
       component: () => import('../views/AboutView.vue'),
       meta: {
-        title: 'About-us'
+        title: 'About-us | Foodpanda'
       }
     }
   ]

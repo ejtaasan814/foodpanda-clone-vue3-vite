@@ -3,6 +3,7 @@ module.exports = {
   content: [
     "./index.html",
     "./src/**/*.{vue,js,ts,jsx,tsx}",
+    "./node_modules/flowbite/**/*.js"
   ],
   theme: {
     extend: {
@@ -17,12 +18,31 @@ module.exports = {
         '6/7': '85.7142857%',
       },
       colors: {
-        deffontcolor: '#d70f64'
+        deffontcolor: '#d70f64',
+        pandaButton: '#ff2b85',
+        pandaButtonHover:'#c21760',
       },
       spacing: {
         '11': '2.75rem',
+      },
+      height: {
+        'bannerHeight': '30rem',
+        'cardHeight': '32rem',
+      },
+      backgroundImage: {
+        'card-1': "url('/src/assets/images/card-1.jpeg')",
+        'card-2': "url('/src/assets/images/card-2.png')",
+        'card-3': "url('/src/assets/images/card-3.jpeg')",
+        'card-4': "url('/src/assets/images/card-4.png')",
+        'card-5': "url('/src/assets/images/card-5.jpeg')",
+        'card-6': "url('/src/assets/images/card-6.jpeg')"
+      },
+      zIndex: {
+      '1': '1',
       }
     },
   },
-  plugins: [],
+  plugins: [
+    require('flowbite/plugin')
+  ],
 }
