@@ -1,13 +1,13 @@
 <script setup>
 import SectionImage from '@/components/base/SectionImage.vue';
-
+import imgFindJob from '@/assets/images/find-job.jpeg'
 </script>
 
 <template>
 <section class="find-job pt-10 med:pt-32 med:px-28">
   <div class="h-full w-full flex flex-col med:flex-row lg:flex-row">
       <div class="w-full med:w-1/2 lg:w-1/2 flex justify-center items-center">
-        <SectionImage img="/src/assets/images/find-job.jpeg" />
+        <SectionImage :img="imgFindJob" />
       </div>
       <div class="w-full med:w-1/2 lg:w-1/2">
         <div class ="w-full h-full p-10 med:p-20 flex flex-col items-center">

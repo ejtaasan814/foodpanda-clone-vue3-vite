@@ -1,5 +1,6 @@
 <script setup>
 import SectionImage from './base/SectionImage.vue'
+import imgFeedTeam from '@/assets/images/feed-team.jpeg'
 </script>
 
 <template>
@@ -21,7 +22,7 @@ import SectionImage from './base/SectionImage.vue'
         </div>
       </div>
       <div class="w-full med:w-1/2 lg:w-1/2 flex justify-center items-center">
-        <SectionImage img="/src/assets/images/feed-team.jpeg" />
+        <SectionImage :img="imgFeedTeam" />
       </div>
   </div>
 </section>

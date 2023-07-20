@@ -1,5 +1,6 @@
 <script setup>
 import SectionImage from '@/components/base/SectionImage.vue';
+import imgTasteCon from '@/assets/images/taste-con.jpeg';
 </script>
 
 <template>
@@ -41,7 +42,7 @@ import SectionImage from '@/components/base/SectionImage.vue';
         </div>
       </div>
       <div class="w-full med:w-1/2 lg:w-1/2 flex justify-center items-center">
-        <SectionImage img="/src/assets/images/taste-con.jpeg" />
+        <SectionImage :img="imgTasteCon" />
       </div>
   </div>
 </section>
