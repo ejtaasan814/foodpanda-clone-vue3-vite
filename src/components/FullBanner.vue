@@ -1,3 +1,9 @@
+<script setup>
+  
+
+</script>
+
+
 <template>
   <section>
     <div class="full-banner flex w-full h-bannerHeight relative bg-slate-200">
