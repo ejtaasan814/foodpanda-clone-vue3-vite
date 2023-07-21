@@ -1,11 +1,10 @@
 <script setup>
-import { ref, computed, defineProps } from 'vue';
-const props =  defineProps(['type', 'img'])
+import { computed, defineProps } from 'vue';
 
-const typeProps = ref(props.type)
+const props =  defineProps(['type', 'img', 'description'])
 
 const type = computed(() => {
-  return typeProps.value == 'img' ? true : false;
+  return props.type == 'img' ? true : false;
 })
 </script>
 
@@ -17,10 +16,12 @@ const type = computed(() => {
         <source src="https://player.vimeo.com/progressive_redirect/playback/809646186/rendition/720p/file.mp4?loc=external&amp;signature=b3c8f78618e1bc64987de8a2533c33471709edf480fc783d42672110f40b500b" type="video/mp4">
       </video>
 
-      <div class="w-full h-bannerHeight bg-about-banner bg-cover bg-center"></div>
+      <div v-if="type" class="w-full h-bannerHeight bg-about-banner bg-cover bg-center"></div>
 
-      <div class="absolute bottom-0 left-0 p-12">
-        <p class="text-white font-bold text-5xl">food and groceries in a tap</p>
+      <div class="absolute p-12 h-full w-full bg-slate-800 bg-opacity-25">
+        <div class="absolute left-0 bottom-0 p-12">
+          <p class="text-white font-bold text-5xl">{{ props.description }}</p>
+        </div>
       </div>
     </div>
   </section>

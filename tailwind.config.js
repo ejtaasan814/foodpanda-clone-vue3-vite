@@ -2,8 +2,7 @@
 module.exports = {
   content: [
     "./index.html",
-    "./src/**/*.{vue,js,ts,jsx,tsx}",
-    "./node_modules/flowbite/**/*.js"
+    "./src/**/*.{vue,js,ts,jsx,tsx}"
   ],
   theme: {
     extend: {
@@ -36,7 +35,11 @@ module.exports = {
         'card-4': "url('/src/assets/images/card-4.png')",
         'card-5': "url('/src/assets/images/card-5.jpeg')",
         'card-6': "url('/src/assets/images/card-6.jpeg')",
-        'about-banner': "url('/src/assets/images/about-banner.jpeg')"
+        'about-banner': "url('/src/assets/images/about-banner.jpeg')",
+        'carousel-1': "url('/src/assets/images/about-carousel-1.jpeg')",
+        'carousel-2': "url('/src/assets/images/about-carousel-2.png')",
+        'carousel-3': "url('/src/assets/images/about-carousel-3.jpeg')",
+        'carousel-right': "url('/src/assets/images/icons/carousel-right.svg')"
       },
       zIndex: {
       '1': '1',
@@ -46,7 +49,5 @@ module.exports = {
       }
     },
   },
-  plugins: [
-    require('flowbite/plugin')
-  ],
+  plugins: [],
 }

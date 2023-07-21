@@ -12,8 +12,10 @@ import Layout from '@/components/layout/MainTemplate.vue'
 
 <template>
     <Layout page="Home">
-      <FullBanner />
-      <SectionInfo />
+      <FullBanner type="video" description="food and groceries in a tap"/>
+      <section-info> 
+        <p class="text-3xl med:text-4xl font-bold">We’re here to help you live life the panda way. Spend more time doing what you love – we’ll take care of tasty meals, fresh groceries and new flavours.</p>
+      </section-info>
       <NextGen />
       <TasteCon />
       <FindJob />
