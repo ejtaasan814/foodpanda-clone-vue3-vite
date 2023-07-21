@@ -35,7 +35,8 @@ module.exports = {
         'card-3': "url('/src/assets/images/card-3.jpeg')",
         'card-4': "url('/src/assets/images/card-4.png')",
         'card-5': "url('/src/assets/images/card-5.jpeg')",
-        'card-6': "url('/src/assets/images/card-6.jpeg')"
+        'card-6': "url('/src/assets/images/card-6.jpeg')",
+        'about-banner': "url('/src/assets/images/about-banner.jpeg')"
       },
       zIndex: {
       '1': '1',

@@ -1,7 +1,16 @@
+<script setup>
+import Layout from '@/components/layout/MainTemplate.vue'
+import FullBanner from '@/components/FullBanner.vue';
+import urlaboutBanner from '@/assets/images/about-banner.jpeg'
+</script>
+
+
 <template>
-  <div class="about">
-    <h1>This is an about page</h1>
-  </div>
+  <Layout page="About">
+    <FullBanner type="img" :img="urlaboutBanner"/>
+
+
+  </Layout>
 </template>
 
 <style>

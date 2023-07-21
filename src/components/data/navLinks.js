@@ -7,7 +7,7 @@ export default
             },
             {
               "label": "About",
-              "link": "/"
+              "link": "/about"
             },
             {
               "label": "Newsroom",
