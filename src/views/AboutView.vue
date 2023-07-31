@@ -4,6 +4,8 @@ import FullBanner from '@/components/FullBanner.vue';
 import SectionInfo from '@/components/SectionInfo.vue';
 import CarouselSection from '@/components/CarouselSection.vue';
 import urlaboutBanner from '@/assets/images/about-banner.jpeg'
+import CarouselSection2 from '@/components/CarouselSection2.vue';
+import JoinPanda from '@/components/JoinPanda.vue';
 
 </script>
 
@@ -18,5 +20,7 @@ import urlaboutBanner from '@/assets/images/about-banner.jpeg'
       <p class="mt-4 text-1xl">Thanks to dedicated partners, riders, and a team united by shared values,  foodpanda is now providing millions with a convenient way to get food and groceries in a few taps.</p>
     </section-info>
     <CarouselSection />
+    <CarouselSection2 />
+    <JoinPanda />
   </Layout>
 </template>

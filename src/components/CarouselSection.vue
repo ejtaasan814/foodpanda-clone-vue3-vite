@@ -1,5 +1,5 @@
 <template>
-  <section class="find-job pt-10 med:pt-32 med:px-28">
+  <section class="mt-10 med:mt-32 med:px-28 bg-slate-200">
     <div class="h-full w-full flex flex-col med:flex-row lg:flex-row">
       <Splide ref="splide" :options="options" :has-track="false" aria-label="carousel section">
 
@@ -9,10 +9,10 @@
                 <div class="flex">
                     <div class="w-1/2">
                         <div class="px-20 py-10 w-full h-full">
-                            <h1 class="text-3xl">Customers come first</h1>
-                            <p class="text-1xl mt-10">We're far more than just swift food delivery. foodpanda enables customers to pick up their takeaway meals, skip boring grocery trips and send parcels. Customer needs are the core and centre of our business. Download the app to experience true convenience.</p>
+                            <h1 class="text-3xl">Our riders are our heroes</h1>
+                            <p class="text-1xl mt-10">We're here to provide exciting opportunities and empower work flexibility. Learn more about rider's journey or sign up to become one</p>
                             <div class="w-full mt-10">
-                              <a href="" class="bg-pandaButton hover:bg-pandaButtonHover rounded-full px-7 py-3 text-white">ride with us</a>
+                              <a href="/" class="bg-pandaButton hover:bg-pandaButtonHover rounded-full px-7 py-3 text-white">ride with us</a>
                             </div>
                         </div>
                     </div>
@@ -26,8 +26,8 @@
                 <div class="flex">
                   <div class="w-1/2">
                         <div class="px-20 py-10 w-full h-full">
-                            <h1 class="text-3xl">Our riders are our heroes</h1>
-                            <p class="text-1xl mt-10">We're here to provide exciting opportunities and empower work flexibility. Learn more about rider's journey or sign up to become one</p>
+                            <h1 class="text-3xl">Growing with our partners</h1>
+                            <p class="text-1xl mt-10">We work with the best restaurants and stores. We support our partners every step of the way and empower their growth. Ready to take your business to the next level?</p>
                             <div class="w-full mt-10">
                               <a href="" class="bg-pandaButton hover:bg-pandaButtonHover rounded-full px-7 py-3 text-white">ride with us</a>
                             </div>
@@ -44,11 +44,8 @@
                 <div class="flex">
                   <div class="w-1/2">
                         <div class="px-20 py-10 w-full h-full">
-                            <h1 class="text-3xl">Growing with our partners</h1>
-                            <p class="text-1xl mt-10">We work with the best restaurants and stores. We support our partners every step of the way and empower their growth. Ready to take your business to the next level?</p>
-                            <div class="w-full mt-10">
-                              <a href="" class="bg-pandaButton hover:bg-pandaButtonHover rounded-full px-7 py-3 text-white">become a partner</a>
-                            </div>
+                            <h1 class="text-3xl">Customers come first</h1>
+                            <p class="text-1xl mt-10">We're far more than just swift food delivery. foodpanda enables customers to pick up their takeaway meals, skip boring grocery trips and send parcels. Customer needs are the core and centre of our business. Download the app to experience true convenience.</p>  
                         </div>
                     </div>
                     <div class="w-1/2 bg-carousel-3 bg-cover h-96 max-h-96">
@@ -58,6 +55,28 @@
               </SplideSlide>
              
             </SplideTrack>
+
+            <div class="absolute bottom-0 left-0 hidden med:w-1/2 med:flex bg-slate-800">
+              <div class="absolute bottom-4 left-4 px-20 flex align-end gap-4 justify-end">
+                <button class="" @click="prevSlide">
+                  <svg width="46" height="46" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.5" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                    <path d="m10 19-7-7m0 0 7-7m-7 7h18"></path>
+                  </svg>
+                </button>
+                
+                <div class="custom-pagination w-full flex"> 
+                  <!-- <div :class="activeIndex === index ? 'bg-slate-800' : ''" class="border border-slate-800 rounded-full w-2 h-2 self-center" aria-label="Go to slide 1" v-for="(n,index) in carouselLength" :key="index"></div> -->
+                  <ul class="splide__pagination w-full self-center"></ul>
+                </div>
+                
+                <button class="" @click="nextSlide">
+                  <svg width="46" height="46" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.5" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                    <path d="m14 5 7 7m0 0-7 7m7-7H3"></path>
+                  </svg>
+                </button>
+              </div>
+            </div>
+
           </div>
 
         
@@ -66,31 +85,7 @@
                   <ul class="splide__pagination"></ul>
                   <button class="splide__arrow splide__arrow--next">Next</button>
                 </div> -->
-                <div class="absolute top-0 w-full h-full">
-                  <div class="absolute bottom-4 left-4 px-20 flex align-end gap-4 justify-end">
-                    
-                    <button class="" @click="prevSlide">
-                      <svg width="46" height="46" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.5" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                        <path d="m10 19-7-7m0 0 7-7m-7 7h18"></path>
-                      </svg>
-                    </button>
-                    
-                    <div class="custom-pagination w-full flex"> 
-                      <!-- <div :class="activeIndex === index ? 'bg-slate-800' : ''" class="border border-slate-800 rounded-full w-2 h-2 self-center" aria-label="Go to slide 1" v-for="(n,index) in carouselLength" :key="index"></div> -->
-                      <ul class="splide__pagination w-full self-center"></ul>
-                    </div>
-                    
-                    <button class="" @click="nextSlide">
-                      <svg width="46" height="46" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.5" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                        <path d="m14 5 7 7m0 0-7 7m7-7H3"></path>
-                      </svg>
-                    </button>
-                  </div>
-                </div>
-      
-
-       
-
+             
       </Splide>
 
 
@@ -101,7 +96,7 @@
 
 <script>
 import { Splide, SplideSlide, SplideTrack } from '@splidejs/vue-splide';
-import { defineComponent, ref, onMounted,computed } from 'vue';
+import { defineComponent, ref, onMounted } from 'vue';
 import '@splidejs/vue-splide/css';
 
 
@@ -130,25 +125,29 @@ export default defineComponent( {
         activeIndex.value = splide.value.splide.index;
         carouselLength.value = splide.value.splide.length;
       }
+      console.log('mounted')
     } );
 
+    function nextSlide() {
+      this.splide.go("+1");
+      activeIndex.value = splide.value.splide.index;
+    }
 
-    const checkActive = computed(() => {
-      return splide.value.splide.index;
-    })
+    function prevSlide(){
+      this.splide.go("-1");
+      activeIndex.value = splide.value.splide.index ? 0 : 1;
+    }
 
-     function nextSlide() {
-        this.splide.go("+1");
-        activeIndex.value = splide.value.splide.index;
-      }
+    function getIndex(){
+      console.log(splide.value.splide.index);
+    }
 
-      function prevSlide(){
-        this.splide.go("-1");
-        activeIndex.value = splide.value.splide.index;
-      }
+    // watch(splide.value, (newValue, oldValue) => {
+    //   console.log('changed');
+    // }, { deep: true, immediate: true })
 
-    return { options, splide, activeIndex, carouselLength, nextSlide , prevSlide, checkActive};
-  }
+    return { options, splide, activeIndex, carouselLength, nextSlide , prevSlide, getIndex};
+  } 
 
 } ); 
 </script>

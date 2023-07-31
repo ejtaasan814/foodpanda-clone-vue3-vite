@@ -39,7 +39,14 @@ module.exports = {
         'carousel-1': "url('/src/assets/images/about-carousel-1.jpeg')",
         'carousel-2': "url('/src/assets/images/about-carousel-2.png')",
         'carousel-3': "url('/src/assets/images/about-carousel-3.jpeg')",
-        'carousel-right': "url('/src/assets/images/icons/carousel-right.svg')"
+        'carousel-right': "url('/src/assets/images/icons/carousel-right.svg')",
+        'carousel1-1': "url('/src/assets/images/ca-panda.jpeg')",
+        'carousel1-2': "url('/src/assets/images/ca-panda1.jpeg')",
+        'carousel1-3': "url('/src/assets/images/ca-panda2.jpeg')",
+        'carousel1-4': "url('/src/assets/images/ca-panda3.jpeg')",
+        'carousel1-5': "url('/src/assets/images/ca-panda4.jpeg')",
+        'carousel1-6': "url('/src/assets/images/ca-panda5.jpeg')",
+        'carousel1-7': "url('/src/assets/images/ca-panda6.jpeg')"
       },
       zIndex: {
       '1': '1',
