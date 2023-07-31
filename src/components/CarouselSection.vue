@@ -6,9 +6,9 @@
           <div class="relative bg-slate-200">
             <SplideTrack>
               <SplideSlide>
-                <div class="flex">
-                    <div class="w-1/2">
-                        <div class="px-20 py-10 w-full h-full">
+                <div class="flex flex-col med:flex-row">
+                    <div class="w-full med:w-1/2">
+                        <div class="px-10 py-5 med:px-20 med:py-10 w-full h-full">
                             <h1 class="text-3xl">Our riders are our heroes</h1>
                             <p class="text-1xl mt-10">We're here to provide exciting opportunities and empower work flexibility. Learn more about rider's journey or sign up to become one</p>
                             <div class="w-full mt-10">
@@ -16,40 +16,37 @@
                             </div>
                         </div>
                     </div>
-                    <div class="w-1/2 bg-carousel-1 bg-cover h-96 max-h-96">
-                      <!-- <img class="object-cover" src="@/assets/images/about-carousel-1.jpeg" alt="Sample 1"> -->
+                    <div class="w-full med:w-1/2 bg-carousel-1 bg-cover h-96 max-h-96">
                     </div>
                 </div>
               </SplideSlide>
 
               <SplideSlide>
-                <div class="flex">
-                  <div class="w-1/2">
-                        <div class="px-20 py-10 w-full h-full">
+                <div class="flex flex-col med:flex-row">
+                  <div class="w-full med:w-1/2">
+                    <div class="px-10 py-5 med:px-20 med:py-10 w-full h-full">
                             <h1 class="text-3xl">Growing with our partners</h1>
                             <p class="text-1xl mt-10">We work with the best restaurants and stores. We support our partners every step of the way and empower their growth. Ready to take your business to the next level?</p>
                             <div class="w-full mt-10">
-                              <a href="" class="bg-pandaButton hover:bg-pandaButtonHover rounded-full px-7 py-3 text-white">ride with us</a>
+                              <a href="" class="bg-pandaButton hover:bg-pandaButtonHover rounded-full px-7 py-3 text-white">become a partner</a>
                             </div>
                         </div>
                     </div>
-                    <div class="w-1/2 bg-carousel-2 bg-cover h-96 max-h-96">
-                      <!-- <img class="w-full" src="@/assets/images/about-carousel-2.png" alt="Sample 1"> -->
+                    <div class="w-full med:w-1/2 bg-carousel-1 bg-cover h-96 max-h-96">
                     </div>
                 </div>
               </SplideSlide>
 
 
               <SplideSlide>
-                <div class="flex">
-                  <div class="w-1/2">
-                        <div class="px-20 py-10 w-full h-full">
+                <div class="flex flex-col med:flex-row">
+                  <div class="w-full med:w-1/2">
+                    <div class="px-10 py-5 med:px-20 med:py-10 w-full h-full">
                             <h1 class="text-3xl">Customers come first</h1>
                             <p class="text-1xl mt-10">We're far more than just swift food delivery. foodpanda enables customers to pick up their takeaway meals, skip boring grocery trips and send parcels. Customer needs are the core and centre of our business. Download the app to experience true convenience.</p>  
                         </div>
                     </div>
-                    <div class="w-1/2 bg-carousel-3 bg-cover h-96 max-h-96">
-                      <!-- <img class="object-cover max-w-full" src="@/assets/images/about-carousel-3.jpeg" alt="Sample 1"> -->
+                    <div class="w-full med:w-1/2 bg-carousel-1 bg-cover h-96 max-h-96">
                     </div>
                 </div>
               </SplideSlide>
