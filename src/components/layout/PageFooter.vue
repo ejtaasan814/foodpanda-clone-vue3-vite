@@ -3,7 +3,7 @@ import footerLinks from '@/components/data/footerLinks';
 import SocMed from '@/components/base/SocMed.vue';
 </script>
 <template>
-  <footer class="footer bg-black p-10 mt-10 med:mt-32 med:p-24 text-white">
+  <footer class="footer bg-black p-10 mt-10 med:mt-20 med:p-24 text-white">
     <div class="flex w-full h-full">
         <div class="w-1/2">
           <div class="logo-container">

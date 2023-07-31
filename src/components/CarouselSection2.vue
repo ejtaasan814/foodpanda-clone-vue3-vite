@@ -1,5 +1,5 @@
 <template>
-  <section class="mt-10 med:mt-32 med:px-28">
+  <section class="mt-10 med:mt-20 med:px-28">
 
     <div class="h-full w-full flex flex-col">
       <div class="w-full flex justify-center">
@@ -33,7 +33,7 @@
 
 
 
-    <div class="h-full w-full flex flex-col med:flex-row lg:flex-row mt-10 med:mt-32">
+    <div class="h-full w-full flex flex-col med:flex-row lg:flex-row mt-10 med:mt-20">
       
         <Splide ref="splide" :options="options" :has-track="false" aria-label="carousel section">
 

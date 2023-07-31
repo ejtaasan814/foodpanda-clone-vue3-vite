@@ -1,5 +1,5 @@
 <template>
-  <section class="mt-10 med:mt-32 med:px-28 bg-slate-200">
+  <section class="mt-10 med:mt-20 med:px-28 bg-slate-200">
     <div class="h-full w-full flex flex-col med:flex-row lg:flex-row">
       <Splide ref="splide" :options="options" :has-track="false" aria-label="carousel section">
 
@@ -32,7 +32,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="w-full med:w-1/2 bg-carousel-1 bg-cover h-96 max-h-96">
+                    <div class="w-full med:w-1/2 bg-carousel-2 bg-cover h-96 max-h-96">
                     </div>
                 </div>
               </SplideSlide>
@@ -46,7 +46,7 @@
                             <p class="text-1xl mt-10">We're far more than just swift food delivery. foodpanda enables customers to pick up their takeaway meals, skip boring grocery trips and send parcels. Customer needs are the core and centre of our business. Download the app to experience true convenience.</p>  
                         </div>
                     </div>
-                    <div class="w-full med:w-1/2 bg-carousel-1 bg-cover h-96 max-h-96">
+                    <div class="w-full med:w-1/2 bg-carousel-3 bg-cover h-96 max-h-96">
                     </div>
                 </div>
               </SplideSlide>

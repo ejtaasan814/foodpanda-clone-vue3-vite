@@ -4,7 +4,7 @@ import imgFindJob from '@/assets/images/find-job.jpeg'
 </script>
 
 <template>
-<section class="find-job pt-10 med:pt-32 med:px-28">
+<section class="find-job pt-10 med:pt-20 med:px-28">
   <div class="h-full w-full flex flex-col med:flex-row lg:flex-row">
       <div class="w-full med:w-1/2 lg:w-1/2">
         <div class ="w-full h-full p-10 med:px-0 flex flex-col items-center justify-center">
