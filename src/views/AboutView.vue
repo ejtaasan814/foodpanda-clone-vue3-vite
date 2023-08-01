@@ -1,18 +1,17 @@
 <script setup>
 import Layout from '@/components/layout/MainTemplate.vue'
-import FullBanner from '@/components/FullBanner.vue';
-import SectionInfo from '@/components/SectionInfo.vue';
-import CarouselSection from '@/components/CarouselSection.vue';
-import urlaboutBanner from '@/assets/images/about-banner.jpeg'
-import CarouselSection2 from '@/components/CarouselSection2.vue';
-import JoinPanda from '@/components/JoinPanda.vue';
+import FullBanner from '@/components/FullBanner.vue'
+import SectionInfo from '@/components/SectionInfo.vue'
+import CarouselSection from '@/components/CarouselSection.vue'
+import CarouselSection2 from '@/components/CarouselSection2.vue'
+import JoinPanda from '@/components/JoinPanda.vue'
 
 </script>
 
 
 <template>
   <Layout page="About">
-    <FullBanner type="img" :img="urlaboutBanner" description="About foodpanda"/>
+    <FullBanner type="img" img="bg-about-banner" description="About foodpanda"/>
     <section-info> 
       <p class="text-1xl med:text-3xl font-bold">From food delivery to your daily convenience companion.</p>
       <p class="mt-4 text-1xl">A subsidiary of Delivery Hero, foodpanda launched in Singapore in 2014 as a food delivery platform.  Dedicated to helping customers get their tasty favourites fast, it quickly won the hearts and minds of customers in APAC.</p>

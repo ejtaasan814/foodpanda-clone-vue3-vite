@@ -6,26 +6,26 @@
         <p class="text-2xl med:text-4xl font-bold">Our values</p>
       </div>
       
-      <div class="flex flex-wrap justify-center gap-10 w-100 mt-10">
-          <div class="w-100">
+      <div class="flex flex-wrap justify-center gap-10 w-full mt-10">
+          <div class="">
             <a href="#" @click.prevent="goToSlide(0)" class="font-bold border-2 border-slate-800 rounded-full px-7 py-3 bg-slate-800 text-white text-pandaButton hover:border-pandaButton">Get 1% better every day</a>
           </div>
-          <div class="w-100">
+          <div class="">
             <a href="#" @click.prevent="goToSlide(1)" class="font-bold border-2 border-slate-800 rounded-full px-7 py-3 hover:bg-pandaButton hover:text-white text-pandaButton hover:border-pandaButton">Own it</a>
           </div>
-          <div class="w-100">
+          <div class="">
             <a href="#" @click.prevent="goToSlide(2)"  class="font-bold border-2 border-slate-800 rounded-full px-7 py-3 hover:bg-pandaButton hover:text-white text-pandaButton hover:border-pandaButton">Take risks</a>
           </div>
-          <div class="w-100">
+          <div class="">
             <a href="#" @click.prevent="goToSlide(3)"  class="font-bold border-2 border-slate-800 rounded-full px-7 py-3 hover:bg-pandaButton hover:text-white text-pandaButton hover:border-pandaButton">Launch moonshots</a>
           </div>
-          <div class="w-100">
+          <div class="">
             <a href="#" @click.prevent="goToSlide(4)"  class="font-bold border-2 border-slate-800 rounded-full px-7 py-3 hover:bg-pandaButton hover:text-white text-pandaButton hover:border-pandaButton">Win through diversity</a>
           </div>
-          <div class="w-100">
+          <div class="">
             <a href="#" @click.prevent="goToSlide(5)"  class="font-bold border-2 border-slate-800 rounded-full px-7 py-3 hover:bg-pandaButton hover:text-white text-pandaButton hover:border-pandaButton">Stay humble</a>
           </div>
-          <div class="w-100">
+          <div class="">
             <a href="#" @click.prevent="goToSlide(5)"  class="font-bold border-2 border-slate-800 rounded-full px-7 py-3 hover:bg-pandaButton hover:text-white text-pandaButton hover:border-pandaButton">Create experiences</a>
           </div>
       </div>

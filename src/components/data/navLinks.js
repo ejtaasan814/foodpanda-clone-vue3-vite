@@ -11,7 +11,7 @@ export default
             },
             {
               "label": "Newsroom",
-              "link": "/"
+              "link": "/newsroom"
             },
             {
               "label": "panda ads",

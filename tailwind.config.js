@@ -36,6 +36,7 @@ module.exports = {
         'card-5': "url('/src/assets/images/card-5.jpeg')",
         'card-6': "url('/src/assets/images/card-6.jpeg')",
         'about-banner': "url('/src/assets/images/about-banner.jpeg')",
+        'newsroom-banner': "url('/src/assets/images/newsroom-banner.jpeg')",
         'carousel-1': "url('/src/assets/images/about-carousel-1.jpeg')",
         'carousel-2': "url('/src/assets/images/about-carousel-2.png')",
         'carousel-3': "url('/src/assets/images/about-carousel-3.jpeg')",

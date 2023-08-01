@@ -16,10 +16,10 @@ const type = computed(() => {
         <source src="https://player.vimeo.com/progressive_redirect/playback/809646186/rendition/720p/file.mp4?loc=external&amp;signature=b3c8f78618e1bc64987de8a2533c33471709edf480fc783d42672110f40b500b" type="video/mp4">
       </video>
 
-      <div v-if="type" class="w-full h-bannerHeight bg-about-banner bg-cover bg-center"></div>
+      <div v-if="type" :class="`w-full h-bannerHeight ${img} bg-cover bg-center`"></div>
 
       <div class="absolute p-12 h-full w-full bg-slate-800 bg-opacity-25">
-        <div class="absolute left-0 bottom-0 p-12">
+        <div class="absolute left-0 bottom-0 p-12 med:p-28">
           <p class="text-white font-bold text-5xl">{{ props.description }}</p>
         </div>
       </div>

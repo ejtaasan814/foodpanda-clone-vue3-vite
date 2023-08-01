@@ -40,7 +40,6 @@ const showMobileMenu = (stat) => {
          
           <div :class="`border-t-4 ${nav.label == props.page ? 'border-pandaButton' : 'border-transparent'} hover:border-t-4 med:hover:border-pandaButton med:h-full py-1 med:py-4`" v-for="(nav, index) in navLinks.main" :key="index">
             <router-link class="text-sm" :to="nav.link">{{ nav.label }}</router-link>
-            <!-- <a class="text-sm" :href="nav.link">{{ nav.label }}</a> -->
           </div>
 
           <div class="group relative med:inline-block group border-t-4 border-transparent h-full py-4">
