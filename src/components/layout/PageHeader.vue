@@ -1,5 +1,5 @@
 <script setup>
-import { ref, defineProps } from 'vue'
+import { ref } from 'vue'
 import navLinks from '@/components/data/navLinks';
 
 const props = defineProps(['page'])
