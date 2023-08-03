@@ -20,6 +20,7 @@ module.exports = {
         deffontcolor: '#d70f64',
         pandaButton: '#ff2b85',
         pandaButtonHover:'#c21760',
+        custom_section_color: '#f0f2f4'
       },
       spacing: {
         '11': '2.75rem',
@@ -37,9 +38,14 @@ module.exports = {
         'card-6': "url('/src/assets/images/card-6.jpeg')",
         'about-banner': "url('/src/assets/images/about-banner.jpeg')",
         'newsroom-banner': "url('/src/assets/images/newsroom-banner.jpeg')",
+        'ads-banner': "url('/src/assets/images/ads-banner.jpeg')",
         'carousel-1': "url('/src/assets/images/about-carousel-1.jpeg')",
         'carousel-2': "url('/src/assets/images/about-carousel-2.png')",
         'carousel-3': "url('/src/assets/images/about-carousel-3.jpeg')",
+        'carousel-ads-1': "url('/src/assets/images/carousel-ads-1.jpeg')",
+        'carousel-ads-2': "url('/src/assets/images/carousel-ads-2.jpeg')",
+        'carousel-ads-3': "url('/src/assets/images/carousel-ads-3.jpeg')",
+        'carousel-ads-4': "url('/src/assets/images/carousel-ads-4.jpeg')",
         'carousel-right': "url('/src/assets/images/icons/carousel-right.svg')",
         'carousel1-1': "url('/src/assets/images/ca-panda.jpeg')",
         'carousel1-2': "url('/src/assets/images/ca-panda1.jpeg')",

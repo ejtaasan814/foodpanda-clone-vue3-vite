@@ -1,10 +1,15 @@
 <script setup>
 import { computed } from 'vue';
 
-const props =  defineProps(['type', 'img', 'description'])
+const props =  defineProps(['type', 'page', 'img', 'description','sub_description'])
+console.log(props.sub_description);
 
 const type = computed(() => {
   return props.type == 'img' ? true : false;
+})
+
+const pandaAdsCheck = computed(() =>{
+  return props.page == 'panda-ads' ? true : false;
 })
 </script>
 
@@ -18,11 +23,30 @@ const type = computed(() => {
 
       <div v-if="type" :class="`w-full h-bannerHeight ${img} bg-cover bg-center`"></div>
 
-      <div class="absolute p-12 h-full w-full bg-slate-800 bg-opacity-25">
-        <div class="absolute left-0 bottom-0 p-12 med:p-28">
+      <div v-if="!pandaAdsCheck" class="absolute p-12 h-full w-full bg-opacity-25">
+        <div class="w-1/2 absolute left-0 bottom-0 p-20 med:p-28">
           <p class="text-white font-bold text-5xl">{{ props.description }}</p>
         </div>
       </div>
+
+      <div v-if="pandaAdsCheck" class="absolute p-12 h-full w-full bg-opacity-25">
+        <div class="w-full med:w-1/2 absolute med:top-0 left-0 bottom-0">
+          <div class="flex flex-col pb-20 px-4 med:p-28">
+            <div class="">
+              <p class="text-white font-bold text-5xl">{{ props.description }}</p>
+            </div>
+            <div class="">
+              <p class="text-white font-bold text-1xl mt-8 mb-8">{{ props.sub_description }}</p>
+            </div>
+            <div class="">
+              <a href="" class="bg-pandaButton hover:bg-pandaButtonHover rounded-full px-7 py-3 text-white">Get in touch</a>
+            </div>          
+          </div>
+        </div>
+      </div>
+
+
+
     </div>
   </section>
 </template>

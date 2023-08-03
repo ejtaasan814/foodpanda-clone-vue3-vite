@@ -15,7 +15,7 @@ export default
             },
             {
               "label": "panda ads",
-              "link": "/"
+              "link": "/panda-ads"
             },
             {
               "label": "Contact",

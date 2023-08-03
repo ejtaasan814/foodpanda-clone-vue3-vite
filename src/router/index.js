@@ -33,6 +33,17 @@ const router = createRouter({
       meta: {
         title: 'Newsroom | Foodpanda'
       }
+    },
+    {
+      path: '/panda-ads',
+      name: 'panda-ads',
+      // route level code-splitting
+      // this generates a separate chunk (About.[hash].js) for this route
+      // which is lazy-loaded when the route is visited.
+      component: () => import('@/views/PandaAdsView.vue'),
+      meta: {
+        title: 'panda ads | Foodpanda'
+      }
     }
   ]
 })
