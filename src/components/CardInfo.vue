@@ -3,7 +3,7 @@
 </script>
 
 <template>
-<section class="card-info pt-32 mb-10 px-10 med:pt-32 med:px-28">
+<section class="card-info pt-12 mb-10 px-10 med:pt-32 med:px-28">
   <div class="h-full w-full flex flex-col med:flex-row lg:flex-row">
     <div class="w-full h-full">
       <div class="flex justify-center">
