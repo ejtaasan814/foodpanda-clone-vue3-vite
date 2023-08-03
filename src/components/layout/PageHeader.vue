@@ -39,7 +39,7 @@ const showMobileMenu = (stat) => {
       <div :class="!isnavMobile.status ? 'hidden': ''" class="w-full med:block med:w-auto">
         <div class="nav-links w-full flex flex-col px-5 gap-1 med:p-0 med:flex-row med:gap-5 h-screen med:h-full transition ease-in duration-300 delay-300">
          
-          <div :class="`border-t-4 ${nav.label == props.page ? 'border-pandaButton' : 'border-transparent'} hover:border-t-4 med:hover:border-pandaButton med:h-full py-1 med:py-4`" v-for="(nav, index) in navLinks.main" :key="index">
+          <div :class="`border-t-4 border-transparent ${nav.label == props.page ? 'med:border-pandaButton' : 'med:border-transparent'} hover:border-t-4 med:hover:border-pandaButton med:h-full py-1 med:py-4`" v-for="(nav, index) in navLinks.main" :key="index">
             <router-link class="text-sm" :to="nav.link" :href="nav.link">{{ nav.label }}</router-link>
           </div>
           <div class="border-t-4 border-transparent hover:border-t-4 med:hover:border-pandaButton med:h-full py-1 med:py-4">
