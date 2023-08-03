@@ -19,11 +19,7 @@ export default
             },
             {
               "label": "Contact",
-              "link": "/"
-            },
-            {
-              "label": "Careers",
-              "link": "/"
+              "link": "/contact"
             }
           ],
     "locations": [

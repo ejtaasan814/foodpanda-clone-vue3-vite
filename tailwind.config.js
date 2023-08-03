@@ -38,6 +38,7 @@ module.exports = {
         'card-6': "url('/src/assets/images/card-6.jpeg')",
         'about-banner': "url('/src/assets/images/about-banner.jpeg')",
         'newsroom-banner': "url('/src/assets/images/newsroom-banner.jpeg')",
+        'contact-banner': "url('/src/assets/images/contact-banner.jpeg')",
         'ads-banner': "url('/src/assets/images/ads-banner.jpeg')",
         'carousel-1': "url('/src/assets/images/about-carousel-1.jpeg')",
         'carousel-2': "url('/src/assets/images/about-carousel-2.png')",

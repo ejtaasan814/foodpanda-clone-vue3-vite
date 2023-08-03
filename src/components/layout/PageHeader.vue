@@ -1,6 +1,7 @@
 <script setup>
 import { ref } from 'vue'
 import navLinks from '@/components/data/navLinks';
+import SearchButton from '@/components/base/SearchButton.vue';
 
 const props = defineProps(['page'])
 
@@ -39,7 +40,10 @@ const showMobileMenu = (stat) => {
         <div class="nav-links w-full flex flex-col px-5 gap-1 med:p-0 med:flex-row med:gap-5 h-screen med:h-full transition ease-in duration-300 delay-300">
          
           <div :class="`border-t-4 ${nav.label == props.page ? 'border-pandaButton' : 'border-transparent'} hover:border-t-4 med:hover:border-pandaButton med:h-full py-1 med:py-4`" v-for="(nav, index) in navLinks.main" :key="index">
-            <router-link class="text-sm" :to="nav.link">{{ nav.label }}</router-link>
+            <router-link class="text-sm" :to="nav.link" :href="nav.link">{{ nav.label }}</router-link>
+          </div>
+          <div class="border-t-4 border-transparent hover:border-t-4 med:hover:border-pandaButton med:h-full py-1 med:py-4">
+            <a href="https://careers.foodpanda.com/" target="_blank" class="text-sm">Careers</a>
           </div>
 
           <div class="group relative med:inline-block group border-t-4 border-transparent h-full py-4">
@@ -53,9 +57,10 @@ const showMobileMenu = (stat) => {
 
           </div>
           <div class="hidden border-t-4 border-transparent med:flex justify-start items-center">
-            <a href="/">
+            <!-- <a href="/">
               <img class="w-10 scale-50" src="@/assets/images/icons/search.svg">
-            </a>
+            </a> -->
+            <SearchButton />
           </div>
         </div>
       </div>

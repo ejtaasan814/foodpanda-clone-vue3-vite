@@ -2,7 +2,6 @@
 import { computed } from 'vue';
 
 const props =  defineProps(['type', 'page', 'img', 'description','sub_description'])
-console.log(props.sub_description);
 
 const type = computed(() => {
   return props.type == 'img' ? true : false;
@@ -24,8 +23,8 @@ const pandaAdsCheck = computed(() =>{
       <div v-if="type" :class="`w-full h-bannerHeight ${img} bg-cover bg-center`"></div>
 
       <div v-if="!pandaAdsCheck" class="absolute p-12 h-full w-full bg-opacity-25">
-        <div class="w-1/2 absolute left-0 bottom-0 p-20 med:p-28">
-          <p class="text-white font-bold text-5xl">{{ props.description }}</p>
+        <div class="w-3/4 absolute left-0 bottom-0 p-20 med:p-28">
+          <p class="text-white font-bold text-4xl med:text-5xl">{{ props.description }}</p>
         </div>
       </div>
 
